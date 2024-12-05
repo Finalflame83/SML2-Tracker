@@ -21,6 +21,15 @@
                 "type": "layout",
                 "key": "shared_item_grid"
               }
+            },
+            {
+              "type": "group",
+              "header": "Zone Progression",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "progression"
+              }
             }
           ]
         },
@@ -28,20 +37,11 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Map 1",
+              "title": "Overworld",
               "content": {
                 "type": "map",
                 "maps": [
-                  "map1"
-                ]
-              }
-            },
-            {
-              "title": "Map 2",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map2"
+                  "OverworldMap"
                 ]
               }
             }
@@ -59,7 +59,7 @@
       "content": [
         {
           "type": "dock",
-          "dock": "bottom",
+          "dock": "left",
           "content": [
             {
               "type": "group",
@@ -79,20 +79,11 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Map 1",
+              "title": "Overworld",
               "content": {
                 "type": "map",
                 "maps": [
-                  "map1"
-                ]
-              }
-            },
-            {
-              "title": "Map 2",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map2"
+                  "OverworldMap"
                 ]
               }
             }

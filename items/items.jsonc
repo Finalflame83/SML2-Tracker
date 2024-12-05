@@ -1,56 +1,206 @@
 [
-  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
   {
-    "name": "Toggle",
+    "name": "Mushroom",
     "type": "toggle",
-    "img": "images/items/toggle.png",
-    "codes": "toggle"
+    "img": "images/items/Mushroom.png",
+    "codes": "mushroom"
   },
   {
-    "name": "Progressive",
-    "type": "progressive",
-    "allow_disabled": true,
-    "initial_stage_idx": 0,
-    "stages": [
-      {
-        "img": "images/items/progressive.png",
-        "codes": "progressive",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_2",
-        "inherit_codes": false
-      }
-    ]
+    "name": "Fire Flower",
+    "type": "toggle",
+    "img": "images/items/FireFlower.png",
+    "codes": "fireflower"
   },
   {
-    "name": "Consumable",
+    "name": "Carrot",
+    "type": "toggle",
+    "img": "images/items/Carrot.png",
+    "codes": "carrot"
+  },
+  {
+    "name": "Super Star",
     "type": "consumable",
-    "img": "images/items/consumable.png",
-    "max_quantity": 8,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 1,
-    "overlay_background": "#000000",
-    "overlay_font_size": 8,
-    "codes": "consumable"
+    "img": "images/items/Star.png",
+    "codes": "superstar",
+    "max_quantity": 3,
+    "overlay_font_size": 12,
+    "overlay_background": "#000000"
   },
   {
-    "name": "Progressive Toggle",
-    "type": "progressive_toggle",
-    "initial_stage_idx": 0,
-    "stages": [
-      {
-        "img": "images/items/progressive.png",
-        "codes": "progressive_toggle",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_toggle_2",
-        "inherit_codes": false
-      }
-    ]
+    "name": "Hippo Bubble",
+    "type": "toggle",
+    "img": "images/items/Hippo.png",
+    "codes": "hippo"
+  },
+  {
+    "name": "Water Physics",
+    "type": "toggle",
+    "img": "images/items/Water.png",
+    "codes": "water"
+  },
+  {
+    "name": "Space Physics",
+    "type": "toggle",
+    "img": "images/items/Space.png",
+    "codes": "space"
+  },
+  {
+    "name": "Pipe Traversal",
+    "type": "toggle",
+    "img": "images/items/Pipe.png",
+    "codes": "pipe"
+  },
+  {
+    "name": "Pipe Traversal - Left",
+    "type": "toggle",
+    "img": "images/items/PipeLeft.png",
+    "codes": "pipeleft"
+  },  
+  {
+    "name": "Pipe Traversal - Up",
+    "type": "toggle",
+    "img": "images/items/PipeUp.png",
+    "codes": "pipeup"
+  },  
+  {
+    "name": "Pipe Traversal - Right",
+    "type": "toggle",
+    "img": "images/items/PipeRight.png",
+    "codes": "piperight"
+  },  
+  {
+    "name": "Pipe Traversal - Down",
+    "type": "toggle",
+    "img": "images/items/PipeDown.png",
+    "codes": "pipedown"
+  },  
+  //Coins
+  {
+    "name": "Macro Zone Coin",
+    "type": "toggle",
+    "img": "images/items/CoinMacro.png",
+    "codes": "coinmacro"
+  },
+  {
+    "name": "Mario Zone Coin",
+    "type": "toggle",
+    "img": "images/items/CoinMario.png",
+    "codes": "coinmario"
+  },
+  {
+    "name": "Tree Zone Coin",
+    "type": "toggle",
+    "img": "images/items/CoinTree.png",
+    "codes": "cointree"
+  },
+  {
+    "name": "Space Zone Coin",
+    "type": "toggle",
+    "img": "images/items/CoinSpace.png",
+    "codes": "coinspace"    
+  },
+  {
+    "name": "Pumpkin Zone Coin",
+    "type": "toggle",
+    "img": "images/items/CoinPumpkin.png",
+    "codes": "coinpumpkin"    
+  },
+  {
+    "name": "Turtle Zone Coin",
+    "type": "toggle",
+    "img": "images/items/CoinTurtle.png",
+    "codes": "cointurtle"    
+  },
+  //Progression Items
+  {
+    "name": "Mario Zone Progression",
+    "type": "consumable",
+    "img": "images/items/ZoneMario.png",
+    "codes": "zonemario",
+    "max_quantity": 3,
+    "overlay_font_size": 12,
+    "overlay_background": "#000000"
+  },
+  {
+    "name": "Turtle Zone Progression",
+    "type": "consumable",
+    "img": "images/items/ZoneTurtle.png",
+    "codes": "zoneturtle",
+    "max_quantity": 2,
+    "overlay_font_size": 12,
+    "overlay_background": "#000000"
+  },
+  {
+    "name": "Pumpkin Zone Progression",
+    "type": "consumable",
+    "img": "images/items/ZonePumpkin.png",
+    "codes": "zonepumpkin",
+    "max_quantity": 3,
+    "overlay_font_size": 12,
+    "overlay_background": "#000000"
+  },
+  {
+    "name": "Tree Zone Progression",
+    "type": "consumable",
+    "img": "images/items/ZoneTree.png",
+    "codes": "zonetree",
+    "max_quantity": 3,
+    "overlay_font_size": 12,
+    "overlay_background": "#000000"
+  },
+  {
+    "name": "Space Zone Progression",
+    "type": "consumable",
+    "img": "images/items/ZoneSpace.png",
+    "codes": "zonespace",
+    "max_quantity": 1,
+    "overlay_font_size": 12,
+    "overlay_background": "#000000"
+  },
+  {
+    "name": "Macro Zone Progression",
+    "type": "consumable",
+    "img": "images/items/ZoneMacro.png",
+    "codes": "zonemacro",
+    "max_quantity": 3,
+    "overlay_font_size": 12,
+    "overlay_background": "#000000"
+  },
+  //Zone Secret Items
+  {
+    "name": "Space Zone Secret",
+    "type": "toggle",
+    "img": "images/items/SecretSpace.png",
+    "codes": "secretspace"
+  },
+  {
+    "name": "Tree Zone Secret",
+    "type": "toggle",
+    "img": "images/items/SecretTree.png",
+    "codes": "secrettree"
+  },
+  {
+    "name": "Macro Zone Secret",
+    "type": "toggle",
+    "img": "images/items/SecretMacro.png",
+    "codes": "secretmacro"
+  },
+  {
+    "name": "Pumpkin Zone Secret 1",
+    "type": "toggle",
+    "img": "images/items/SecretPumpkin1.png",
+    "codes": "secretpumpkin1"
+  },
+  {
+    "name": "Pumpkin Zone Secret 2",
+    "type": "toggle",
+    "img": "images/items/SecretPumpkin2.png",
+    "codes": "secretpumpkin2"
+  },
+  {
+    "name": "Turtle Zone Secret",
+    "type": "toggle",
+    "img": "images/items/SecretTurtle.png",
+    "codes": "secretturtle"
   }
 ]

@@ -1,0 +1,81 @@
+completed location checks list[
+    Carrot
+    Fire Flower
+    Mushroom
+    Hippo Bubble
+    Water Physics
+    Space Physics
+    Pipe Traversal
+    Super Star Duration Increase
+    Tree Coin (all coins)
+    Pumpkin Zone Secret 2
+    Pumpkin Zone Progression
+    Space Zone Secret
+]
+
+settings[
+    Change icons away from chests, at least for coins.
+    Required coins
+    Coin fragments
+    Fragments Required
+    Coinsanity (and settings)
+    Midway bell locations (also setting to add one in castle)
+    Auto-scrolling stuff
+    Difficulty trap
+    Lives list?
+]
+
+location list[
+    Overworld[
+        //Mushroom Zone - Normal Exit
+        //Scenic Course - Normal Exit
+       // Hippo Zone - Normal or Secret Exit
+        Mario's Castle - Wario
+    ]
+    Tree Zone[
+        Tree Zone 1 - Normal Exit
+        Tree Zone 2 - Normal Exit
+        Tree Zone 2 - Secret Exit
+        Tree Zone 3 - Normal Exit
+        Tree Zone 4 - Normal Exit
+        Tree Zone 5 - Boss
+        Tree Zone Secret Course
+    ]
+    Space Zone[
+        Space Zone 1 - Normal Exit
+        Space Zone 1 - Secret Exit
+        Space Zone Secret Course
+        Space Zone 2 - Boss
+    ]
+    Macro Zone[
+        Macro Zone 1 - Normal Exit
+        Macro Zone 1 - Secret Exit
+        Macro Zone 2 - Normal Exit
+        Macro Zone 3 - Normal Exit
+        Macro Zone 4 - Boss
+        Macro Zone Secret Course
+    ]
+    Pumpkin Zone[
+        Pumpkin Zone 1 - Normal Exit
+        Pumpkin Zone 2 - Normal Exit
+        Pumpkin Zone 2 - Secret Exit
+        Pumpkin Zone 3 - Normal Exit
+        Pumpkin Zone 3 - Secret Exit
+        Pumpkin Zone 4 - Boss
+        Pumpkin Zone Secret Course 1
+        Pumpkin Zone Secret Course 2
+    ]
+    Mario Zone[
+        Mario Zone 1 - Normal Exit
+        Mario Zone 2 - Normal Exit
+        Mario Zone 3 - Normal Exit
+        Mario Zone 4 - Boss
+    ]
+    Turtle Zone[
+        Turtle Zone 1 - Normal Exit
+        Turtle Zone 2 - Normal Exit
+        Turtle Zone 2 - Secret Exit
+        Turtle Zone 3 - Boss
+        Turtle Zone Secret Course
+    ]
+]

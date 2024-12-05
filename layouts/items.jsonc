@@ -13,16 +13,77 @@
         "content": [
           {
             "type": "itemgrid",
+            "header": "Items",
             "item_margin": "10, 10",
             "h_alignment": "left",
             "rows": [
               [
-                "toggle",
-                "progressive"
+                "mushroom",
+                "fireflower",
+                "carrot",
+                "superstar",
+                "hippo",
+                "water",
+                "space"
               ],
               [
-                "consumable",
-                "progressive_toggle"
+                "pipedown",
+                "piperight",
+                "pipeup",
+                "pipeleft"
+              ],
+              [
+                "cointree",
+                "coinspace",
+                "coinmacro",
+                "coinpumpkin",
+                "coinmario",
+                "cointurtle"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "header": "Zone Unlocks",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "10, 10",
+            "h_alignment": "left",
+            "rows": [
+              [
+                "zonetree",
+                "zonespace",
+                "zonemacro",
+                "zonepumpkin",
+                "zonemario",
+                "zoneturtle"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "10, 10",
+            "h_alignment": "left",
+            "rows": [
+              [
+                "secrettree",
+                "secretspace",
+                "secretmacro",
+                "secretpumpkin1",
+                "secretpumpkin2",
+                "secretturtle"
               ]
             ]
           }
