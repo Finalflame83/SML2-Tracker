@@ -1,4 +1,4 @@
-# Template Pack for PopTracker
+# Super Mario Land 2: 6 Golden Coins AP Tracker
 
 This is my first attempt at making a poptracker pack.  While Super Mario Land 2 doesn't have much to track, it can be useful to know if you have more checks open without constantly booting up the game and manually checking each level.  To start with, this pack may not have much funcionality, but I will be adding as I see fit and am capable.
 
