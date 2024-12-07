@@ -180,10 +180,16 @@
     "codes": "secrettree"
   },
   {
-    "name": "Macro Zone Secret",
+    "name": "Macro Zone Secret 1",
     "type": "toggle",
-    "img": "images/items/SecretMacro.png",
-    "codes": "secretmacro"
+    "img": "images/items/SecretMacro1.png",
+    "codes": "secretmacro1"
+  },
+  {
+    "name": "Macro Zone Secret 2",
+    "type": "toggle",
+    "img": "images/items/SecretMacro2.png",
+    "codes": "secretmacro2"
   },
   {
     "name": "Pumpkin Zone Secret 1",
